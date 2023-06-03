@@ -300,9 +300,9 @@ span{
     background: var(--second-bg-color);
 }
 
-section{
+/* section{
     height: 100vh;
-}
+} */
 
 .education{
     display: flex;
@@ -626,4 +626,19 @@ section{
 
 .footer-iconTop a:hover i{
     color: var(--main-color);
+}
+
+@media (max-width: 991px){
+    .header{
+        padding: 2rem 4%;
+    }
+    section{
+        padding: 10rem 4% 2rem;
+    }
+    .home{
+        padding: 0 4%;
+    }
+    .footer{
+        padding: 2rem 4%;
+    }
 }
