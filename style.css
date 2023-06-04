@@ -93,7 +93,19 @@ section{
     display: flex;
     align-items: center;
     padding: 0 9%;
-    background: url("/img/profile-pic\ \(3\).png") no-repeat;
+    background: url("/img/main2.png") no-repeat;
+    background-size: 35%;
+    box-sizing: cover;
+    background-position: right;
+    margin-right: 10%;
+}
+
+.home:hover{
+    display: flex;
+    align-items: center;
+    padding: 0 9%;
+    background: url("/img/main-hover.png") no-repeat;
+    background-size: 35%;
     box-sizing: cover;
     background-position: right;
     margin-right: 10%;
@@ -750,6 +762,18 @@ section:nth-child(odd) .animate.scroll,
     html{
         font-size: 55%;
     }
+    .home{
+        display: flex;
+        align-items: center;
+        padding: 0 9%;
+        /* background-image: url("/img/profile-pic.png") no-repeat; */
+        background: none;
+        box-sizing: cover;
+        background-position: right;
+        margin-right: 10%;
+        /* opacity: .3; */
+    }
+    
 }
 
 @media (max-width: 991px){
@@ -759,8 +783,12 @@ section:nth-child(odd) .animate.scroll,
     section{
         padding: 10rem 4% 2rem;
     }
+    /* ****  */
     .home{
-        padding: 0 4%;
+        background: none;
+        align-items: center;
+        align-content: center;
+        margin-left: 20%;
     }
     .footer{
         padding: 2rem 4%;
@@ -771,6 +799,13 @@ section:nth-child(odd) .animate.scroll,
     .animate.home-img{
         width: 55%;
     }
+    /* ****  */
+    .home{
+        background: none;
+        align-items: center;
+        align-content: center;
+        margin-left: 20%;
+    }
 }
 
 @media (max-width: 768px){
@@ -780,6 +815,13 @@ section:nth-child(odd) .animate.scroll,
 
     #menu-icon{
         display: block;
+    }
+    /* ****  */
+    .home{
+        background: none;
+        align-items: center;
+        align-content: center;
+        margin-left: 20%;
     }
 
     .navbar{
@@ -838,6 +880,14 @@ section:nth-child(odd) .animate.scroll,
         font-size: 50%;
     }
 
+    /* ****  */
+    .home{
+        background: none;
+        align-items: center;
+        align-content: center;
+        margin-left: 20%;
+    }
+
     .home-content h1{
         display: flex;
         flex-direction: column;
@@ -856,6 +906,13 @@ section:nth-child(odd) .animate.scroll,
     .home-content h1{
         font-size: 5.2rem;
     }
+   /* ****  */
+   .home{
+    background: none;
+    align-items: center;
+    align-content: center;
+    margin-left: 10%;
+}
 
     .education{
         padding: 10rem 4% 5rem 5%;
@@ -876,8 +933,12 @@ section:nth-child(odd) .animate.scroll,
 }
 
 @media (max-width: 371px){
+    /* ****  */
     .home{
-        justify-content: center;
+        background: none;
+        align-items: center;
+        align-content: center;
+        margin-left: 0%;
     }
 
     .home-content{
